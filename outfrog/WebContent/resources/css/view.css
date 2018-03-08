@@ -1,0 +1,42 @@
+/** 메인페이지 상단 부분 설정 */
+.upper-bar {
+	float: left;
+}
+
+/** 작품리스트 뷰페이지 하단 부분 설정 */
+.bottom-bar {
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+/** 마이페이지 버튼 설정 */
+.bt_user {
+	margin-left: 300px;
+	width: 80px;
+	height: 80px;
+}
+
+/** 공모 이미지 설정 */
+.img_contest {	
+	width: 200px;
+	height: 200px;
+}
+
+/** 작품 이미지 설정 */
+.img_work {	
+	width: 200px;
+	height: 200px;
+}
+
+/** 공모 아이콘 틀 설정 */
+.contest {
+	float: left;
+	margin-left: 40px;
+}
+
+/** 작품 아이콘 틀 설정 */
+.work {	
+	float: left;
+	margin-left: 40px;
+}

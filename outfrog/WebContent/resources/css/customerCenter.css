@@ -1,0 +1,149 @@
+/* customerCenter의 가장 큰 div */
+#contents{
+}
+
+/* 자주 묻는 질문의 카테고리 글씨 색상 */
+#category {
+	color: #0080c0;
+}
+
+/* a태그 밑줄 제거 및 글씨 색상 변경 */
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/* 자주 묻는 질문의 카테고리 선택 메뉴 */
+.customerCenterMenu{
+	width: 200px;
+	height: 80px;
+	border: 1px solid #0080c0;
+	color: white;
+	background-color: #0080c0;
+	text-align: center;
+	line-height: 80px;
+	font-size: large;
+	font-weight: bold;
+}
+
+/* 질문 목록의 크기 및 색상 변경 */
+.askTitle{
+	width: 1000px;
+	height: 50px;
+	line-height: 50px;
+	font-size: large;
+	font-weight: bold;
+	padding: 5px;
+    text-align: center;
+    background-color: #c2e7f8;
+    border: solid 1px #0080c0;
+}
+
+/* 질문 답변 부분 */
+.askComment{
+	padding: 50px;
+    display: none;
+    border: solid 1px #0080c0;
+}
+
+/* div 줄 바꿈 */
+.tr_css{
+	clear: both;
+}
+
+/* div 같은 줄에 위치 */
+.td_css{
+	float: left;
+	margin: 5px 10px;
+}
+
+/* 1:1 문의 글씨 크기 */
+.question_title{
+	font-size: larger;
+	font-weight: bold;
+	line-height: 50px;
+	margin: 5px 10px;
+}
+
+/* questionView의 제목 크기 */
+.font_title{
+	width: 400px;
+	font-size: large;
+	font-weight: bold;
+}
+
+/* input type=text 의 크기 */
+.tx_size{
+	height: 50px;
+	width: 400px;
+	margin: 5px auto;
+}
+
+/* button 크기 */
+.bt_size{
+	width: 80px;
+	height: 50px;
+	margin: 5px 10px;
+	font-size: large;
+}
+
+/* 가로가 긴 button의 크기 */
+.bt_longSize{
+	width: 130px;
+	height: 50px;
+	margin: 5px 10px;
+	font-size: large;
+}
+
+/* 세로가 큰 button의 크기 */
+.bt_bigSize{
+	width: 130px;
+	height: 80px;
+	margin: 5px 10px;
+	font-size: large;
+}
+
+/* select의 크기 */
+.sb_size{
+	width: 200px;
+	height: 50px;
+	margin: 5px auto;
+	font-size: large;
+}
+
+/* textarea의 크기 */
+.ta_size{
+	overflow: hidden;
+	resize: none;
+	margin: 10px auto;
+}
+
+/* customerCenter 숫자 컬럼 크기 */
+.num{
+	width: 50px;
+}
+
+/* customerCenter 제목 컬럼 크기 */
+.title{
+	width: 300px;
+}
+
+/* customerCenter 내용 컬럼 크기 */
+.content{
+	width: 400px;
+}
+
+/* customerCenter 작성자 컬럼 크기 */
+.writer{
+	width: 150px;
+}
+
+/* customerCenter 날짜 컬럼 크기 */
+.date{
+	width: 80px;
+}
+
+/* customerCenter 상태 컬럼 크기 */
+.state{
+	width: 80px;
+}

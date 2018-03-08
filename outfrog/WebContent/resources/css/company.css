@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+div .sub_main {float:right;width:730px;text-align:left;margin-top:0px; }
+div .lr10{padding:0 10px;}
+div .title{font-size:24px; font-weight:200;}
+div .title1{font-size:34px; line-height:40px; letter-spacing:-1.5px; font-weight:500; color:#a59679;}
+div .title2{font-size:40px; line-height:30px; letter-spacing:-1.5px; font-weight:500;}
+div .title3{font-size:16px; line-height:22px; letter-spacing:-1px;}
+div .title4{font-size:14px; line-height:21px; color:#484848; font-weight:300; letter-spacing:0px; word-break:keep-all;}
+div .title5{font-size:30px; line-height:40px; letter-spacing:-1.5px; font-weight:500;}
+div .history{position:relative;width:100%;overflow:hidden; padding:15px 0; margin-left:100px;}
+div .title6{font-size:14px; line-height:21px; color:#484848; font-weight:300; letter-spacing:0px; word-break:keep-all;}
+span .title{font-size:13px; line-height:19px;}
+span .title1{font-size:34px; font:bold; line-height:40px; letter-spacing:-1.5px; font-weight:500; color:#000000;}
+span .title2{font-size:34px; line-height:40px; letter-spacing:-1.5px; font-weight:500; color:#a59679;}
+.bigImage  img {
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.bigImage:hover img {
+    -webkit-transform:scale(2);
+    -moz-transform:scale(2);
+    -ms-transform:scale(2);   
+    -o-transform:scale(2);
+    transform:scale(2);
+}
+.blinking{
+	-webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+.circle {
+  width:180px;
+  height:180px;
+  border:10px solid lime;
+  border-radius:50%;
+   display: table-cell;
+   vertical-align: middle;
+}
